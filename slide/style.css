@@ -199,3 +199,14 @@ html.dark .slidev-layout.g-slide pre { border: 1px solid var(--g-border); }
 .g-mantra-row.second .g-mantra-text { color: var(--g-text); font-size: 3rem; }
 .g-mantra-row.second .g-mantra-text span { color: var(--g-green); }
 .g-mantra-text em.hl { font-style: normal; background: var(--g-green); color: var(--g-bg); border-radius: 10px; padding: 0 0.3em; white-space: nowrap; }
+
+/* ---------- Reframe: styled pull-quote ---------- */
+.g-reframe { position: relative; display: flex; flex-direction: column; justify-content: center; height: 100%; padding-left: 1rem; }
+.g-reframe-mark { position: absolute; top: 2rem; left: 0; font-size: 13rem; line-height: 1; font-weight: 700; color: var(--g-blue); opacity: 0.15; pointer-events: none; }
+.g-reframe-quote { position: relative; margin: 1rem 0 0; padding: 0 0 0 1.6rem; border-left: 8px solid var(--g-blue); font-size: 2.5rem !important; font-weight: 500; line-height: 1.15 !important; letter-spacing: -0.01em; color: var(--g-text); opacity: 0; animation: mantra-in 0.7s ease 0.1s forwards; }
+.g-reframe-quote, .g-reframe-quote p { font-size: 2.5rem !important; line-height: 1.15 !important; }
+.g-reframe-quote .hl { color: var(--g-blue); font-weight: 700; }
+.g-reframe-quote .not { color: var(--g-red); }
+.g-reframe-quote .is { color: var(--g-green); font-weight: 700; }
+.g-reframe-by { display: flex; align-items: center; gap: 0.8rem; margin: 1.6rem 0 0 1.6rem; font-size: 1.1rem; font-weight: 500; color: var(--g-text-secondary); opacity: 0; animation: mantra-in 0.5s ease 0.9s forwards; }
+.g-reframe-rule { width: 2.5rem; height: 3px; border-radius: 999px; background: linear-gradient(90deg, var(--g-blue), var(--g-green)); }

@@ -391,10 +391,13 @@ And the last one. How many scores changed? How many did not? Start with someone 
 
 ---
 
-<div class="g-section">
+<div class="g-reframe">
   <div class="g-eyebrow">Reframe</div>
-  <p class="g-quote">“We all have unconscious bias; it doesn’t make us bad, it makes us human.”</p>
-  <p class="g-quote-by">— Rod Bolger</p>
+  <div class="g-reframe-mark">“</div>
+  <div class="g-reframe-quote">
+    We all have <span class="hl">unconscious bias</span>; it doesn’t make us <span class="not">bad</span>, it makes us <span class="is">human</span>.
+  </div>
+  <div class="g-reframe-by"><span class="g-reframe-rule"></span>Rod Bolger</div>
 </div>
 
 <!--
